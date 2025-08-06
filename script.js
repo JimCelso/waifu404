@@ -14,7 +14,6 @@ btn.addEventListener('click', () => {
   }, 1000);
 });
 
-// Glitch intermitente del título
 setInterval(() => {
   glitchTitle.classList.remove('glitch');
   void glitchTitle.offsetWidth;
