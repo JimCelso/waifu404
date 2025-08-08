@@ -19,3 +19,9 @@ setInterval(() => {
   void glitchTitle.offsetWidth;
   glitchTitle.classList.add('glitch');
 }, 4000);
+
+// Ocultar advertencia y mostrar intro real
+document.getElementById('warningBtn').addEventListener('click', () => {
+  document.getElementById('warningScreen').style.display = 'none';
+  document.getElementById('intro').style.display = 'flex';
+});
